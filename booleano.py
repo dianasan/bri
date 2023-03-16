@@ -9,7 +9,7 @@ stopwords = set(stopwords.words('portuguese'))
 
 if __name__ == '__main__':
     # aqui foi preciso fazer a leitura de cada subpasta
-    dataset_path = r"C:\obras_machado_assiss\romance\1"
+    dataset_path = r"C:\obras_machado_assiss\"
     vocab = {}
     # matrix termo-documento binaria
     binary_td_matrix = []
